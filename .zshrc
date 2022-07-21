@@ -1,3 +1,7 @@
+# Alias
+alias hist='history | grep'
+alias hist0='history 0 | grep'
+
 # anyenv用
 export PATH="$HOME/.anyenv/bin:$PATH"
 eval "$(anyenv init -)"
