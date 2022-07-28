@@ -1,0 +1,9 @@
+[include]
+  # import username and email
+  path = ~/.gitconfig.local
+[alias]
+	br = branch
+	cm = commit
+	st = status
+	sw = switch
+	swc = switch -c
