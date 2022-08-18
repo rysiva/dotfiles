@@ -10,6 +10,7 @@ brew "tig"
 brew "tldr"
 brew "daipeihust/tap/im-select"
 brew "sanemat/font/ricty"
+brew "silicon"
 
 cask "asana"
 cask "clipy"
