@@ -7,3 +7,11 @@
 	st = status
 	sw = switch
 	swc = switch -c
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = rysiva
+	email = 50093319+rysiva@users.noreply.github.com
