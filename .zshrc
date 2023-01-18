@@ -9,9 +9,11 @@ export NODENV_ROOT="$HOME/.nodenv"
 export PATH="$HOME/.nodenv/bin:$PATH"
 eval "$(nodenv init -)"
 
+# Git用(?)
+export PATH="/opt/homebrew/bin:${PATH}"
+
 # 工事中
 export PATH="/bin:/usr/bin:$PATH"
-export PATH="/opt/homebrew/bin:$PATH"
 fpath=(~/.zsh/completion $fpath)
 autoload -Uz compinit && compinit -i
 
@@ -23,3 +25,5 @@ fi
 
 # no matches foundの解消のため
 setopt nonomatch
+# 複数シェル間での履歴共有
+setopt SHARE_HISTORY
