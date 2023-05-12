@@ -25,6 +25,7 @@ cask "slack"
 cask "xmind"
 cask "notion"
 cask "warp"
+cask "zoom"
 
 # tap "koekeishiya/formulae"
 # brew "koekeishiya/formulae/yabai"
