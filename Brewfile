@@ -26,6 +26,8 @@ cask "xmind"
 cask "notion"
 cask "warp"
 cask "zoom"
+cask "keycastr"
+cask "arc"
 
 # tap "koekeishiya/formulae"
 # brew "koekeishiya/formulae/yabai"
