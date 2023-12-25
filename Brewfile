@@ -13,6 +13,7 @@ brew "silicon"
 brew "deno"
 brew "graphviz"
 brew "git"
+brew "gh"
 
 cask "asana"
 cask "clipy"
