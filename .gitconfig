@@ -15,3 +15,7 @@
 [user]
 	name = rysiva
 	email = 50093319+rysiva@users.noreply.github.com
+[rebase]
+	autostash = true
+	abbreviateCommands = true
+	autosquash = true
