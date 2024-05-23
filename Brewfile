@@ -15,6 +15,15 @@ brew "graphviz"
 brew "git"
 brew "gh"
 
+# Jestが落ちる問題を解決するためのパッケージ群
+# Ref: https://stackoverflow.com/questions/75840986/unable-to-install-canvas-on-macos-m2
+brew "python-setuptools"
+brew "pkg-config"
+brew "cairo"
+brew "libpng"
+brew "jpeg"
+brew "giflib"
+
 cask "asana"
 cask "clipy"
 cask "discord"
