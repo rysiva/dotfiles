@@ -19,3 +19,13 @@ $ ln -s ~/dotfiles/.zshrc ~/.zshrc
 [dotfilesの管理を楽にする話](https://zenn.dev/tkomatsu/articles/d7d089acd29cfa4d57b4)  
 [.gitconfig に include で設定を読み込めるようになった](https://coderwall.com/p/z8m3mq/gitconfig-include)  
 [Brew Bundleの使い方](https://gist.github.com/yoshimana/43b9205ddedad0ad65f2dee00c6f4261)  
+
+## その他環境構築時の留意事項
+
+- 旧Macからkarabinerの設定をインポート。以下のファイルをコピーして同じ場所に配置する
+`~/.config/karabiner/karabiner.json`
+- VSCodeのカラーテーマが同期されないかも
+- terminalのフォントサイズは18
+- キーボード > キーボードショートカット > 修飾キー > Caps LockをControlへ割り当て
+  - Functionキーも変更
+  - 入力ソース > 前の入力ソースを選択をオフ
