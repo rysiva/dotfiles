@@ -34,11 +34,12 @@ echo "Changing shell to Zsh..."
 chsh -s /bin/zsh
 
 # 7. anyenvのインストールと初期化
-echo "Initializing anyenv..."
+echo "Installing and initializing anyenv..."
 if [ ! -d "$HOME/.anyenv" ]; then
   git clone https://github.com/anyenv/anyenv ~/.anyenv
-  ~/.anyenv/bin/anyenv init
 fi
+export PATH="$HOME/.anyenv/bin:$PATH"
+anyenv install --init
 
 # 8. nodenvのインストールと初期化
 echo "Installing nodenv..."
