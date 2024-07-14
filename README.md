@@ -29,3 +29,4 @@ $ ln -s ~/dotfiles/.zshrc ~/.zshrc
 - キーボード > キーボードショートカット > 修飾キー > Caps LockをControlへ割り当て
   - Functionキーも変更
   - 入力ソース > 前の入力ソースを選択をオフ
+  - キーボード > 次の操作ウィンドウを操作対象にするをoption + tab
