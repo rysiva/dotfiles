@@ -20,8 +20,9 @@ echo "Cloning dotfiles repository..."
 git clone $REPO_URL $DOTFILES_DIR
 
 # 4. Brewfileを使ってHomebrewパッケージをインストール
-echo "Installing packages from Brewfile..."
-brew bundle --file=$BREWFILE
+echo "Creating symbolic link for Brewfile and installing packages..."
+ln -sf $BREWFILE $HOME/Brewfile
+brew bundle --file=$HOME/Brewfile
 
 # 5. シンボリックリンクの作成
 echo "Creating symbolic links..."
